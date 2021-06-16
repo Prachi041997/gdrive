@@ -1,0 +1,35 @@
+#brandTitle {
+    min-width: 300px;
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 50px;
+    /* background-color: red; */
+}
+#circle{
+    width: 50px;
+    height:50px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #fff; */
+
+}
+#circle i{
+    /* color: #fff; */
+    font-size: 20px;
+}
+#head{
+    font-family:'Gilroy ☞' !important ;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+    position: absolute;
+    /* color: #fff !important; */
+    margin-left: 10px;
+    
+    /* text-transform: uppercase; */
+}

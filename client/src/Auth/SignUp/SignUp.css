@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signUpContainer{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #383061, #a192e6);
+    position: relative;
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpForm {
+    width: 30%;
+   min-height: 70%;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    /* box-shadow: 
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.3),
+    6px 16px 16px rgba(100, 100, 100, 0.25); */
+    /* box-shadow: 2px 2px 15px 6px #3c37648a; */
+
+}
+.error {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c03b23 ;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+.signupTitle{
+    text-align: center;
+    font-family:'Gilroy ☞' !important ;
+    font-size: 40px;
+    font-weight: black;
+    margin-bottom: 15px;
+    color: #53488a;
+}
+.signUpForm form {
+    width: 70%;
+    height: 80%;
+    /* background-color: #a192e6; */
+    margin: 0 auto;
+}
+.label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #5e5992 ;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.inputC {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #eae6f8;
+    padding-left: 15px;
+    margin-bottom: 17px;
+    /* border: 1px solid #076D9D; */
+}
+.inputR{
+   margin-right: 6px;
+}
+#option{
+    margin-right:10px ;
+    /* font-family: 'Oswald', sans-serif; */
+    font-weight: 400;
+    color: #5e5992 ;
+
+}
+.signupBtn {
+    padding: 12px 35px;
+    color: #fff;
+    border: none;
+    outline: none; 
+    background-color: #423b66;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 14px;
+    cursor: pointer;
+    /* box-shadow: 2px 7px 15px 3px #786dacc0; */
+    box-shadow: 
+    -8px -8px 12px 0 rgba(173, 170, 170, 0.226),
+    4px 8px 12px  rgba(121, 92, 160, 0.616);
+}
+.signinLink {
+    
+    margin-top: 20px;
+    color: #4e456e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}

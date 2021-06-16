@@ -1,0 +1,90 @@
+body {
+    background-color: #e8e4f1;
+}
+
+.homeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main {
+    width: 80vw;
+    min-height: 400px;
+    background-color: #e8e4f1;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-left: 35px;
+}
+
+#imagediv {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#imagediv img {
+    width: 40%;
+    height: 40%;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+#imagediv h1{
+    font-family:'Gilroy ☞' !important ;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#imagedivbtn{
+    padding: 14px 28px;
+    border: none;
+    outline: none;
+    background-color: #FF736B;
+    color: #fff;
+    font-family:'Gilroy ☞' !important ;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#imagedivbtn:hover{
+    background-color: #E8E4F1;
+    border: 1px solid #FF736B;
+    color: #FF736B;
+}
+.starHead{
+    display: flex;
+    justify-content: flex-end;
+}
+.toastContainer {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: 9999;
+    color: rgb(88, 177, 236);
+    font-family: 'Gilroy ☞' !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.toastContainer p {
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}

@@ -1,0 +1,73 @@
+#context-menu {
+    position: fixed;
+    z-index:10000;
+    width:240px;
+    min-height:50px;
+    background:rgb(242, 238, 248);
+    border-radius: 2px;
+    box-shadow: 1px 1px 14px rgba(0,0,0,0.2);
+    /* transform:scale(0); */
+    transform-origin:top left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #context-item {
+      width: 100%;
+      height: 40px;
+      /* background-color: rgb(230, 140, 140); */
+      display: flex;
+  }
+  #context-icon {
+      width:30%;
+      height: 100%;
+      /* background-color: #eee; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    #context-icon {
+        color: rgb(98, 58, 161);
+    }
+    #context-option {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family:'Gilroy ☞' !important ;
+        font-weight: 400;
+        font-size: 17px;
+        color: rgb(68, 41, 110);
+   
+    }
+    #context-item:hover {
+        background-color: rgb(167, 126, 233);
+        color: #fff;
+    }
+    #context-item:hover #context-icon i {
+        color: #fff;
+    }
+    #context-item:hover #context-option {
+        color: #fff;
+    }
+  #context-menu.active {
+    transform:scale(1);
+    transition:transform 300ms ease-in-out;
+  }
+  #context-menu .item {
+    padding:8px 10px;
+    font-size:15px;
+    color:#eee;
+  }
+  #context-menu .item:hover {
+    background:#555;
+  }
+  #context-menu .item i {
+    display:inline-block;
+    margin-right:5px;
+  }
+  #context-menu hr {
+    margin:2px 0px;
+    border-color:#555;
+  }

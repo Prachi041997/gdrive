@@ -1,0 +1,83 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+.utilities {
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.save {
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(219, 217, 217);
+    cursor: pointer;
+}
+.close1 {
+    font-size: 30px;
+    color: rgb(219, 217, 217);
+    cursor: pointer;;
+}
+.utilities i:hover {
+    color: #fff;
+}
+.modalImage {
+    width: 60%;
+    height: 80vh;
+    background-color:transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+#img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.photo-viewer-container {
+    width: 100% !important;
+    height: 100% !important;
+    /* background-color: red !important; */
+}
+.photo-viewer-container img {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+.pg-viewer-wrapper{
+    overflow-y: hidden;
+    overflow-x: hidden
+}
+.video-container {
+    width: 100%;
+    height: 100%;
+}
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

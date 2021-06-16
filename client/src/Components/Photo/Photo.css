@@ -1,0 +1,51 @@
+.profilePic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+   overflow: hidden;
+   position: relative;
+   border: 1px solid #fff;
+   /* background-color: aquamarine; */
+   /* background-image: url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80')  */
+   ;
+   /* margin: 0 auto; */
+}
+#pp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-color: aqua; */
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.profilePic input{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+#camera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+}
+/* .profilePic:hover{
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+} */
+.profilePic:hover #overlay{
+    display: block;
+}
